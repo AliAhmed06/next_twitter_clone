@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import NewsSectionItem from './NEwsSectionItem';
+import NewsSectionItem from './NewsSectionItem';
 import { motion, AnimatePresence  } from "framer-motion"
 
 function NewsSection({newsResult}) {
