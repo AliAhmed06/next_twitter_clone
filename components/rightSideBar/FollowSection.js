@@ -6,7 +6,7 @@ function FollowSection({usersToFollow}) {
   const [userToFollowCounter, setUserToFollowCounter] = useState(2);
   return (
     <div className='bg-gray-100 py-4 w-10/12 mx-auto mt-5 rounded-lg flex flex-col items-start justify-center'>
-          <h4 className='text-xl font-bold  pl-4'>What's happening</h4>
+          <h4 className='text-xl font-bold  pl-4'>Whats happening</h4>
           
           <AnimatePresence>
             {usersToFollow.slice(0,userToFollowCounter).map((item) => (              

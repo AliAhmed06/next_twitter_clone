@@ -2,7 +2,7 @@ import React from 'react'
 
 function NewsSectionItem({article}) {
   return (
-    <a href={article.url} target="_blank">
+    <a rel="noreferrer" href={article.url} target="_blank">
       <div className='flex items-center justify-between  hover:bg-gray-200 px-4 py-3 '>
         <div className='w-9/12'>
           <p >{article.title}</p>
