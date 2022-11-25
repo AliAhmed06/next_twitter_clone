@@ -34,7 +34,7 @@ const LeftSidebar = () => {
         <div className='mt-2 pt-2 flex-1 flex flex-col items-start justify-start'>
             { session ? (
             <>
-                <LeftSidebarMenu Icon={HomeIcon} title="Home" />
+                <LeftSidebarMenu Icon={HomeIcon} title="Homeee" />
                 <LeftSidebarMenu Icon={TagIcon} title="Explore" />
                 <LeftSidebarMenu Icon={NotificationsNoneIcon} title="Notofications" />
                 <LeftSidebarMenu Icon={MarkunreadIcon} title="Messages" />
